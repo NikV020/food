@@ -1,0 +1,22 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikV020/food.git"
+  },
+  "author": "Jack_V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikV020/food/issues"
+  },
+  "homepage": "https://github.com/NikV020/food#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}

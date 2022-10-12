@@ -111,7 +111,7 @@ function openModal() {
     modal.classList.add('show');
     modal.classList.remove('hide');
     document.body.style.overflow = 'hidden';
-    clearInterval(modalTimerId);
+    // clearInterval(modalTimerId);
 }
 
 modalCloseBtn.addEventListener('click', closeModal);
@@ -211,4 +211,6 @@ class MenuCard {
         '.menu .container',
         'menu__item'
     ).render();
+
+    
 });
