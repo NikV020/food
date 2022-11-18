@@ -2,14 +2,14 @@ function slider({container, slide, nextArrow, preArrow, totalCounter, currentCou
 // Slider
     
     const slides = document.querySelectorAll(slide),
-            slider = document.querySelector(container), 
-            prev = document.querySelector(preArrow),
-            next = document.querySelector(nextArrow),
-            total = document.querySelector(totalCounter),
-            current = document.querySelector(currentCounter),
-            slidesWrapper = document.querySelector(wrapper),
-            slidesField = document.querySelector(field),
-            width = window.getComputedStyle(slidesWrapper).width;
+        slider = document.querySelector(container), 
+        prev = document.querySelector(preArrow),
+        next = document.querySelector(nextArrow),
+        total = document.querySelector(totalCounter),
+        current = document.querySelector(currentCounter),
+        slidesWrapper = document.querySelector(wrapper),
+        slidesField = document.querySelector(field),
+        width = window.getComputedStyle(slidesWrapper).width;
 
     let slideIndex = 1;
     let offset = 0;
